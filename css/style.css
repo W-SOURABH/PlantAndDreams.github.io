@@ -1,0 +1,53 @@
+.nav-logo{
+    width: 3.5rem;
+}
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.doct-img{
+    width: 20rem;
+}
+@media (max-width:992px){
+    .header-content{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center !important;
+    }
+    .header-title h1, .header-content p ,.header-btn{
+       text-align: center; 
+    }
+    .header-img{
+        margin: auto;
+        width: 100%;
+    }
+    .about-row{
+        display: block;
+        justify-content: center;
+    }
+}
+@media (max-width:70.68rem) {
+    .member-row{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .member-img{
+        display:flex;
+        justify-content: center;
+    }
+}
+@media (max-width:1400px) {
+    .contact-img{
+        display: none;
+    }
+    .form-col{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width:976px) {
+    .info-footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
